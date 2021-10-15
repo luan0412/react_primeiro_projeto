@@ -1,0 +1,30 @@
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(93, 211, 93);
+}
+.App {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Main {
+  flex-direction: column;
+  background-color: red;
+  
+ 
+}
+
+.App {
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
